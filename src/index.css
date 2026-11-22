@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Lora", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-arabic: "Amiri", "Traditional Arabic", serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #edf4ef;
+    color: #122d1f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.qada-bg-gradient {
+  background: linear-gradient(180deg, #f8fcfa 0%, #eef6f1 48%, #dcebe3 100%);
+}
+
+.qada-bg-soft {
+  background: linear-gradient(180deg, #f9fcfa 0%, #edf6f1 55%, #e1eee7 100%);
+}
+
+.qada-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.qada-scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

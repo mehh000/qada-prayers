@@ -1,0 +1,6 @@
+{
+  "name": "Qada — Mindful Prayer Tracker",
+  "description": "A serene, mindful Qada prayer estimation, cadence planning, and daily tracking application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
